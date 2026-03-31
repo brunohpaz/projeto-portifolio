@@ -7,3 +7,8 @@
   --destaque-inverso
   --fundo-card
 */
+
+body{
+  background-color: hsl(19, 56%, 10%);
+  color: tomato;
+}
