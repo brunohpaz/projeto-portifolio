@@ -127,6 +127,13 @@ article h2 {
   margin-bottom: 15px;
 }
 
+article h3 {
+  color: var(--destaque);
+  margin-bottom: -10px;
+  font-weight: bolder;
+  font-size: 1.13em;
+}
+
 .video-container {
   position: relative;
   width: 100%;
