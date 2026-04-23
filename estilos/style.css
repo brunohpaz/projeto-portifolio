@@ -187,9 +187,28 @@ article h3 {
  border-radius: 4px; 
 }
 
+/* ... seus outros estilos de barra e info ... */
+
 @media screen and (min-width: 758px) {
   #skill-container {
+    /* Aqui cria as duas colunas */
     grid-template-columns: repeat(2, 1fr);
   }
-  
+
+  /* O SEGREDO: Faz o título ocupar a largura total */
+  #skill-container h3 {
+    grid-column: span 2; 
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  #skill-container {
+    /* Aqui cria as duas colunas */
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  /* O SEGREDO: Faz o título ocupar a largura total */
+  #skill-container h3 {
+    grid-column: span 4; 
+  }
 }
