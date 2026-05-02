@@ -20,6 +20,7 @@
   --destaque: #0077ff;
   --destaque-inverso: #66bbff;
   --fundo-card: #ffffff;
+  --detaque-curso-em-video: #1F4341;
 }
 
 body {
@@ -257,6 +258,22 @@ article h3 {
   border-radius: 8px;
 }
 
+footer p {
+  background-color: var(--destaque);
+  color: var(--texto-inverso);
+  text-align: center;
+  padding: 5px;
+}
+
+footer p a{
+  color: var(--detaque-curso-em-video);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer p a:hover {
+  color:var(--destaque-inverso);
+}
 
 @media screen and (min-width: 758px) {
   #skill-container {
